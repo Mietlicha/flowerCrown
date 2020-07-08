@@ -1,5 +1,7 @@
+const layout = window.innerWidth > 900 ? 250 : "auto";
+
 $("#my_nanogallery2").nanogallery2({
-  thumbnailHeight: 250,
+  thumbnailHeight: layout,
   thumbnailWidth: 250,
   galleryMosaic: [
     { w: 5, h: 3, c: 2, r: 1 },
@@ -11,7 +13,6 @@ $("#my_nanogallery2").nanogallery2({
     { w: 2, h: 2, c: 10, r: 5 },
     { w: 4, h: 2, c: 11, r: 6 },
   ],
-  //   thumbnailDisplayTransition: "scaleDown",
   galleryTheme: {
     thumbnail: { borderColor: "#fff" },
   },
