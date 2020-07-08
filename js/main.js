@@ -1,14 +1,18 @@
-// jQuery(document).ready(function () {
-//   jQuery("#my_nanogallery2").nanogallery2({
-//     items: [
-//       { src: "./../img/Originals/1.JPG", srct: "./../img/1.JPG" },
-//       { src: "berlin2.jpg", srct: "berlin2t.jpg" },
-//       { src: "berlin3.jpg", srct: "berlin3t.jpg" },
-//     ],
-//     thumbnailWidth: "auto",
-//     thumbnailHeight: 100,
-//     itemsBaseURL: "https://photos.google.com/?tab=kq&pageId=none",
-
-//     locationHash: false,
-//   });
-// });
+$("#my_nanogallery2").nanogallery2({
+  thumbnailHeight: 250,
+  thumbnailWidth: 250,
+  galleryMosaic: [
+    { w: 5, h: 3, c: 2, r: 1 },
+    { w: 2, h: 2, c: 1, r: 2 },
+    { w: 2, h: 2, c: 7, r: 2 },
+    { w: 2, h: 2, c: 2, r: 4 },
+    { w: 3, h: 4, c: 4, r: 4 },
+    { w: 3, h: 4, c: 7, r: 4 },
+    { w: 2, h: 2, c: 10, r: 5 },
+    { w: 4, h: 2, c: 11, r: 6 },
+  ],
+  //   thumbnailDisplayTransition: "scaleDown",
+  galleryTheme: {
+    thumbnail: { borderColor: "#fff" },
+  },
+});
