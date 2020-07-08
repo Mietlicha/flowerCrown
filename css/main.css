@@ -266,11 +266,12 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    112.72013189013455deg,
-    rgba(236, 236, 236, 1) 4.927083333333334%,
-    rgba(195, 229, 248, 1) 97.84374999999999%
+  background-image: linear-gradient(
+    to top,
+    rgb(94, 231, 223) 0%,
+    rgb(180, 144, 202) 100%
   );
+  color: white;
   font-family: "Amatic SC", cursive;
 }
 header {
@@ -302,6 +303,15 @@ h3 {
   right: 50%;
   display: none;
   transform: translateX(50%);
+  fill: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: rgba(2, 12, 39, 0.9);
+  z-index: 999;
+  width: 100%;
 }
 
 @media (min-width: 500px) {
