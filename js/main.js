@@ -3,6 +3,7 @@ const layout = window.innerWidth > 900 ? 250 : "auto";
 $("#my_nanogallery2").nanogallery2({
   thumbnailHeight: layout,
   thumbnailWidth: 250,
+  thumbnailHoverEffect2: "image_contrast_100%_120%",
   galleryMosaic: [
     { w: 5, h: 3, c: 2, r: 1 },
     { w: 2, h: 2, c: 1, r: 2 },
