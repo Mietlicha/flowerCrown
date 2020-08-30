@@ -266,12 +266,8 @@ html {
 }
 
 body {
-  background-image: linear-gradient(
-    to top,
-    rgb(94, 231, 223) 0%,
-    rgb(180, 144, 202) 100%
-  );
-  color: white;
+  background: white;
+  color: rgb(2 12 39 / 90%);
   font-family: "Amatic SC", cursive;
   min-height: 100vh;
 }
@@ -292,6 +288,9 @@ h3 {
   display: block;
   font-weight: 400;
 }
+.nGY2GThumbnail {
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.3);
+}
 
 .container {
   position: relative;
@@ -307,7 +306,7 @@ h3 {
   right: 50%;
   display: none;
   transform: translateX(50%);
-  fill: white;
+  fill: rgb(2 12 39 / 90%);
 }
 
 footer {
@@ -322,6 +321,7 @@ footer {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-size: 0.7rem;
+  color: white;
 }
 
 .footer__para {
